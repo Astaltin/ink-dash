@@ -1,4 +1,4 @@
-package com.iabhitech.notepad;
+package com.inkdash;
 
 import java.awt.print.PrinterException;
 import java.io.*;
@@ -107,7 +107,7 @@ public class MainFrame extends javax.swing.JFrame {
         });
 
         dialogAbout.setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
-        dialogAbout.setTitle("About Notepad Clone");
+        dialogAbout.setTitle("About Ink Dash");
         dialogAbout.setAlwaysOnTop(true);
         dialogAbout.setBounds(new java.awt.Rectangle(0, 0, 580, 420));
         dialogAbout.setMinimumSize(new java.awt.Dimension(583, 420));
@@ -115,7 +115,7 @@ public class MainFrame extends javax.swing.JFrame {
         dialogAbout.setResizable(false);
 
         jLabel1.setFont(new java.awt.Font("Times New Roman", 1, 36)); // NOI18N
-        jLabel1.setText("Notepad Clone");
+        jLabel1.setText("Ink Dash");
 
         jTextArea1.setEditable(false);
         jTextArea1.setBackground(new java.awt.Color(204, 204, 204));
@@ -123,7 +123,7 @@ public class MainFrame extends javax.swing.JFrame {
         jTextArea1.setFont(new java.awt.Font("Calibri Light", 0, 16)); // NOI18N
         jTextArea1.setLineWrap(true);
         jTextArea1.setRows(5);
-        jTextArea1.setText("Designed By: Abhineet Verma\nVersion: Beta\n\nThis Notepad Clone is only design for learning purpose.\nTechnology Stack: Java Swing\n\nSource Code: https://github.com/iabhitech\n");
+        jTextArea1.setText("Version: Beta\n\nThis Ink Dash is only design for learning purpose.\nTechnology Stack: Java Swing\n\n");
         jTextArea1.setWrapStyleWord(true);
         jTextArea1.setBorder(null);
         jTextArea1.setOpaque(false);
